@@ -30,7 +30,7 @@ namespace BenIkErdoorOpERPOfNiet
                     juistTeller++;
                 Console.WriteLine(juistAntwoord1 + " " + gekozenAntwoord1);
             }
-            return juistTeller >= aantalVragen / 2.0;
+            return juistTeller >= aantalVragen * 0.5;
         }
     }
 }
